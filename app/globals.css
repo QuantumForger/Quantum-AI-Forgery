@@ -1,0 +1,7 @@
+
+/* Ensure paths match public folder structure */
+.background {
+    background-image: url('/public/images/neural-overlay.png'); /* Example fix */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
