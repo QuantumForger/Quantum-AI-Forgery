@@ -2,12 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-};
-
-module.exports = nextConfig;
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
   webpack: (config) => {
     config.watchOptions = {
       ignored: ['**/node_modules', '**/.next', '**/*.log'],
@@ -17,3 +11,4 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
